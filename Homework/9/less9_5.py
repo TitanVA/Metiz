@@ -23,13 +23,3 @@ class User:
 
     def print_login_attempts(self):
         print('Login attempts:', self.login_attempts)
-
-
-viktor = User('viktor', 'bezai', '31', 'male')
-viktor.print_login_attempts()
-viktor.increment_login_attempts()
-viktor.increment_login_attempts()
-viktor.increment_login_attempts()
-viktor.print_login_attempts()
-viktor.reset_login_attempts()
-viktor.print_login_attempts()

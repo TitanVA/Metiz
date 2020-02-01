@@ -18,11 +18,3 @@ class Restaurant:
 
     def print_served(self):
         print('Served:', self.number_served)
-
-
-ris = Restaurant('Ris', 'Japanese')
-ris.print_served()
-ris.set_number_served(15)
-ris.print_served()
-ris.increment_number_served(1)
-ris.print_served()

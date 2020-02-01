@@ -12,5 +12,4 @@ class Admin(User):
         print('You have priveleges:', self.privileges)
 
 
-viktor = Admin('viktor', 'bezai', '31', 'male')
-viktor.show_privileges()
+
