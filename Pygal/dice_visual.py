@@ -6,7 +6,7 @@ die_1 = Die()
 die_2 = Die()
 
 results = []
-for roll_num in range(100):
+for roll_num in range(20):
     result = die_1.roll() + die_2.roll()
     results.append(result)
 
